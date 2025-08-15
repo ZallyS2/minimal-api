@@ -158,7 +158,7 @@ app.MapGet("/veiculos", ([FromQuery] int? page, IVeiculoService veiculosService)
 }).WithTags("Veiculos");
 
 //pegar veículo por Id
-app.MapGet("$/veiculos/{id}", ([FromRoute] int id, IVeiculoService veiculosService) => {
+app.MapGet("/veiculos/{id}", ([FromRoute] int id, IVeiculoService veiculosService) => {
     var veiculo = veiculosService.BuscarPorId(id);
     if (veiculo == null)
         return Results.NotFound();

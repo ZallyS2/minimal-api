@@ -18,7 +18,7 @@
     <li>Acesse no navegador:<br><code>http://localhost:5247/</code></li>
 </ol>
 
-## 💜 Projeto feito por Zallih
+## 💜 Projeto feito por Zally
 
 <img align="right" alt="zallih" width="150" src="https://github.com/zallih/Images/blob/main/zally.png?raw=true">
   <a href="https://www.instagram.com/zzappiello.o/"><img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white" /></a>
