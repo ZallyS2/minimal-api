@@ -8,5 +8,8 @@ using MinimalApi.Dominio.Entities;
 namespace MinimalApi.Dominio.Interfaces {
     public interface IAdministradorService {
         Administrador? Login(LoginDTO login);
+        Administrador Include(Administrador administrador);
+        List<Administrador> All(int? page);
+        Administrador? BuscarPorId(int id);
     }
 }
