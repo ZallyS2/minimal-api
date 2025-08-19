@@ -12,8 +12,6 @@ namespace MinimalApi.Dominio.Services {
 
         private readonly DbContexto _context;
 
-        public AdministradorService() {
-        }
 
         public AdministradorService(DbContexto context) {
             _context = context;
